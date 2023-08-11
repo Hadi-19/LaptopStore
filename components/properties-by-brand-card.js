@@ -3,7 +3,7 @@ import LinkCard from "./link-card";
 
 const PropertiesByBrandCard = () => {
   return (
-    <div className="self-stretch flex-1 flex flex-col py-[53px] px-[50px] items-center justify-start gap-[45px] text-center text-21xl text-primary-800 font-body-regular-600">
+    <div className="self-stretch flex-1 flex flex-col py-[53px] px-[50px] items-center justify-start gap-[45px] text-center text-21xl text-primary-800 font-body-large-400">
       <div className="self-stretch flex flex-col py-0 px-[30px] items-center justify-start gap-[24px] md:self-stretch md:w-auto">
         <div className="self-stretch relative leading-[48px] font-semibold">
           Properties by Brand
@@ -32,7 +32,7 @@ const PropertiesByBrandCard = () => {
           </div>
           <Link
             className="cursor-pointer [text-decoration:none] self-stretch flex flex-row items-start justify-center gap-[24px] lg:flex-row md:flex-col"
-            href="/"
+            href="/properties-grid-view"
           >
             <LinkCard
               brandName="LG"
